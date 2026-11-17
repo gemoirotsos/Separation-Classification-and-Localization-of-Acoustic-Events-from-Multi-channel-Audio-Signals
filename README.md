@@ -13,6 +13,16 @@ This project can be divided into three parts:
 
 ## Repository Structure
 
+| Path | Contents |
+| --- | --- |
+| [`separation`](separation/) | Python backend with Flask routes, the MySQL connection, and SQL queries for the application features. |
+| [`classification`](classification/) | SQL dump containing the relational schema and project data. |
+| [`localization`](localization/) | Frontend template with HTML, CSS, and JavaScript. |
+| [`evaluation`](evaluation/) | Frontend template with HTML, CSS, and JavaScript. |
+| [`Moirotsos_georgios.pdf`](Moirotsos_georgios.pdf) | Project report with installation instructions, schema diagrams, screenshots, and a code walkthrough. |
+| [`Thesis_presentation.pptx`](Thesis_presentation.pptx) | Project presentation. |
+| [`complete_pipeline.png`](complete_pipeline.png) | Project complete pipeline. |
+
 ## Thesis paper
 Anyone looking for a more detailed and deeper understanding of the project as well as the final results and conclusions of my work can take a look at:
 https://www.e-ce.uth.gr/wp-content/uploads/formidable/59/Moirotsos_georgios.pdf
