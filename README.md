@@ -15,12 +15,12 @@ This project can be divided into three parts:
 
 | Path | Contents |
 | --- | --- |
-| [`separation`](separation/) | Python backend with Flask routes, the MySQL connection, and SQL queries for the application features. |
-| [`classification`](classification/) | SQL dump containing the relational schema and project data. |
-| [`localization`](localization/) | Frontend template with HTML, CSS, and JavaScript. |
-| [`evaluation`](evaluation/) | Frontend template with HTML, CSS, and JavaScript. |
-| [`Moirotsos_georgios.pdf`](Moirotsos_georgios.pdf) | Project report with installation instructions, schema diagrams, screenshots, and a code walkthrough. |
-| [`Thesis_presentation.pptx`](Thesis_presentation.pptx) | Project presentation. |
+| [`separation`](separation/) |Complete methodology of the IVA algorithm by creating a class, in order to produce the separated signals through the multichannel mixture. Contains also the main executive program that runs the IVA class. |
+| [`classification`](classification/) |CNN architecture using Tensorflow/Keras and audio data preprocessing for the classification of the separated signals. |
+| [`localization`](localization/) |Exploits the spatial information obtained by the IVA algorithm, leading to the computation of the direction-of-arrival cordinates. |
+| [`evaluation`](evaluation/) |Contains the code for the evaluation separation metrics that have been used (SDR, SNR, SAR).|
+| [`Moirotsos_georgios.pdf`](Moirotsos_georgios.pdf) | Project report with fundamental concepts about audio source separation, classification, and localization, methodology, experimental results and conclusions. |
+| [`Thesis_presentation.pptx`](Thesis_presentation.pptx) | Project final presentation. |
 | [`complete_pipeline.png`](complete_pipeline.png) | Project complete pipeline. |
 
 ## Thesis paper
