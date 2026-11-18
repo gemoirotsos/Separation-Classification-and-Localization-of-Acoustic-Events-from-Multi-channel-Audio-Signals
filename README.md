@@ -14,16 +14,16 @@ This project can be divided into three parts:
 - **Acoustic Source Localization**: We estimate the spatial direction of each separated source signal, by exploiting the spatial information captured by the microphone array. The estimation of the direction of arrival of each source is computed in terms of azimuth and elevation coordinates. Localization is not treated as an independent processing step. In contrast, it is recovered from the separated outputs by exploiting the spatial information obtained during the preceding source separation stage.
 
 ## 📚 Repository Structure
-All folders contain the Python code developed for the experimental part of each of the three stages.
+The repository contains the Python code for source separation, classification, localization, and evaluation, along with the thesis report, presentation, and pipeline diagram.
 | Path | Contents |
 | --- | --- |
-| [`separation`](separation/) |Complete methodology of the IVA algorithm by creating a class, in order to produce the separated signals through the multichannel mixture. Contains also the main executive program that runs the IVA class. |
-| [`classification`](classification/) |CNN architecture using Tensorflow/Keras and audio data preprocessing for the classification of the separated signals. |
-| [`localization`](localization/) |Exploits the spatial information obtained by the IVA algorithm, leading to the computation of the direction-of-arrival cordinates. |
-| [`evaluation`](evaluation/) |Contains the code for the evaluation separation metrics that have been used (SDR, SNR, SAR).|
-| [`Moirotsos_georgios.pdf`](Moirotsos_georgios.pdf) | Project report with fundamental concepts about audio source separation, classification, and localization, methodology, experimental results and conclusions. |
-| [`Thesis_presentation.pptx`](Thesis_presentation.pptx) | Project final presentation. |
-| [`complete_pipeline.png`](complete_pipeline.png) | Project complete pipeline. |
+| [`separation`](separation/) |IVA implementation and the main script that runs it to separate sources from multichannel audio mixtures. |
+| [`classification`](classification/) |CNN implemented with TensorFlow/Keras and audio preprocessing code for classifying the separated signals. |
+| [`localization`](localization/) |Code that uses spatial information obtained during IVA-based separation to estimate each source’s direction of arrival (azimuth and elevation). |
+| [`evaluation`](evaluation/) |Code for computing source separation metrics (SDR, SNR, and SAR).|
+| [`Moirotsos_georgios.pdf`](Moirotsos_georgios.pdf) | Thesis report covering the theoretical background, methodologies, experimental results, and conclusions. |
+| [`Thesis_presentation.pptx`](Thesis_presentation.pptx) |Final thesis presentation. |
+| [`complete_pipeline.png`](complete_pipeline.png) |Diagram of the complete processing pipeline. |
 
 ## 🔥 Complete Pipeline
 Here is an example from a multichannel mixture of the evaluation dataset which represents the complete pipeline of this Thesis, starting by decomposing the separated source signals from the mixture, then classifying the source signals and, lastly, estimating their direction-of-arrival coordinates relatively with the microphone array.
