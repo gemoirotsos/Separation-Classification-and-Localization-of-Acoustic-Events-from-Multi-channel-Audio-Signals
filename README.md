@@ -31,3 +31,15 @@ All of the work was done locally on my machine, so every path written should be 
 ## Thesis paper
 Anyone looking for a more detailed and deeper understanding of the project as well as the final results and conclusions of my work can take a look at:
 https://www.e-ce.uth.gr/wp-content/uploads/formidable/59/Moirotsos_georgios.pdf
+
+## 
+## 🛠 Technologies Used
+- Python, NumPy, Pandas, Tensoflow/Keras, Librosa
+- EuroHPC Resources
+- Overleaf for the syntax of the paper
+
+## Author
+**Georgios Moirotsos**
+University of Thessaly, Department of Electrical and Computer Engineering (ECE)
+Supervisor: Prof. Gerasimos Potamianos
+September 2026
