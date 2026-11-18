@@ -32,7 +32,9 @@ All of the work was done locally on my machine, so every path written should be 
 Anyone looking for a more detailed and deeper understanding of the project as well as the final results and conclusions of my work can take a look at:
 https://www.e-ce.uth.gr/wp-content/uploads/formidable/59/Moirotsos_georgios.pdf
 
-## 
+## 📎 Related Links
+- ['Spatial Semantic Segmentation of Sound Scenes'](https://dcase.community/challenge2025/task-spatial-semantic-segmentation-of-sound-scenes) 
+
 ## 🛠 Technologies Used
 - Python, NumPy, Pandas, Tensoflow/Keras, Librosa
 - EuroHPC Resources
