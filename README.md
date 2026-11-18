@@ -26,7 +26,7 @@ The repository contains the Python code for source separation, classification, l
 | [`complete_pipeline.png`](complete_pipeline.png) |Diagram of the complete processing pipeline. |
 
 ## 🔥 Complete Pipeline
-Here is an example from a multichannel mixture of the evaluation dataset which represents the complete pipeline of this Thesis, starting by decomposing the separated source signals from the mixture, then classifying the source signals and, lastly, estimating their direction-of-arrival coordinates relatively with the microphone array.
+Here is an example of the complete pipeline using a multichannel audio mixture from the evaluation dataset. The system separates the mixture into two source signals, classifies them as **Buzzer** and **Dishes**, and estimates the direction of arrival (DOA) of each source relative to the microphone array. Each DOA estimate is shown as an (azimuth, elevation) pair in degrees.
 ![Complete Pipeline](./complete_pipeline.png)
 
 ## Disclaimer
