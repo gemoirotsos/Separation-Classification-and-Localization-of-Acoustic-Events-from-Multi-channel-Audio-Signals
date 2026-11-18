@@ -7,13 +7,13 @@ The project presents the design, development, and evaluation of this three-stage
 ## Project Description
 We will be using multichannel audio mixture recordings with a duration of 10 seconds in a .wav format, provided by the DCASE 2025 Task 4 Dataset. Each mixture is captured by four microphone channels, containing between 1 to 3 different acoustic events which occur simultaneously. Additional noise and interference sounds may be included into the mixtures. We focus mainly on the isolation of the individual sound sources on the mixture. This procedure takes place without any knowledge of the mixing process or the existing sources, which is called Blind Source Separation (BSS). Then, each isolated target sound event will be assigned a predicted label of an acoustic event class. Lastly,  we estimate the direction of arrival of each separated source signal, by exploiting the spatial information captured by the microphone array. 
 
-## Features
+## 🔍 Features
 This project can be divided into three parts:
 - **Blind Source Separation**: The first task aims to recover a set of audio source signals from the observation of the multichannel mixture signal. The separation stage considers Indevendent Vector Analysis (IVA). The main assumption of the IVA algorithm is the statitiscal independence of the source signals and their spatial diversity across the microphone channels.
 - **Acoustic Event Classification**: The separated signals will be fed into a Convolutional Neural Network (CNN) architecture in order to predict their class label. There is a total of 18 acoustic event classes which differ in duration, intensity, spectral content, and temporal structure, making the classification problem extremely challenging. The CNN model has been trained on predefined clean target source signals from each class, provided by the DCASE 2025 Task 4 Development Dataset.
 - **Acoustic Source Localization**: We estimate the spatial direction of each separated source signal, by exploiting the spatial information captured by the microphone array. The estimation of the direction of arrival of each source is computed in terms of azimuth and elevation coordinates. Localization is not treated as an independent processing step. In contrast, it is recovered from the separated outputs by exploiting the spatial information obtained during the preceding source separation stage.
 
-## Repository Structure
+## 📚 Repository Structure
 All folders contain the Python code developed for the experimental part of each of the three stages.
 | Path | Contents |
 | --- | --- |
@@ -25,7 +25,7 @@ All folders contain the Python code developed for the experimental part of each 
 | [`Thesis_presentation.pptx`](Thesis_presentation.pptx) | Project final presentation. |
 | [`complete_pipeline.png`](complete_pipeline.png) | Project complete pipeline. |
 
-## Complete Pipeline
+## 🔥 Complete Pipeline
 Here is an example from a multichannel mixture of the evaluation dataset which represents the complete pipeline of this Thesis, starting by decomposing the separated source signals from the mixture, then classifying the source signals and, lastly, estimating their direction-of-arrival coordinates relatively with the microphone array.
 ![Complete Pipeline](./complete_pipeline.png)
 
@@ -47,7 +47,7 @@ https://www.e-ce.uth.gr/wp-content/uploads/formidable/59/Moirotsos_georgios.pdf
 - EuroHPC Resources
 - Overleaf for the syntax of the paper
 
-## Author
+## 📌 Author
 **Georgios Moirotsos**
 
 University of Thessaly, Department of Electrical and Computer Engineering (ECE)
