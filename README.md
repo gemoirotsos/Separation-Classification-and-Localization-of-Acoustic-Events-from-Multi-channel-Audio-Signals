@@ -12,7 +12,7 @@ This project can be divided into three parts:
 - **Acoustic Source Localization**: We estimate the spatial direction of each separated source signal, by exploiting the spatial information captured by the microphone array. The estimation of the direction of arrival of each source is computed in terms of azimuth and elevation coordinates. Localization is not treated as an independent processing step. In contrast, it is recovered from the separated outputs by exploiting the spatial information obtained during the preceding source separation stage.
 
 ## Repository Structure
-
+All folders contain the Python code developed for the experimental part of each of the three stages.
 | Path | Contents |
 | --- | --- |
 | [`separation`](separation/) |Complete methodology of the IVA algorithm by creating a class, in order to produce the separated signals through the multichannel mixture. Contains also the main executive program that runs the IVA class. |
