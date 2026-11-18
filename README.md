@@ -33,7 +33,10 @@ Anyone looking for a more detailed and deeper understanding of the project as we
 https://www.e-ce.uth.gr/wp-content/uploads/formidable/59/Moirotsos_georgios.pdf
 
 ## 📎 Related Links
-- ['Spatial Semantic Segmentation of Sound Scenes'](https://dcase.community/challenge2025/task-spatial-semantic-segmentation-of-sound-scenes) 
+- [Spatial Semantic Segmentation of Sound Scenes](https://dcase.community/challenge2025/task-spatial-semantic-segmentation-of-sound-scenes): Project's inspiration from the DCASE 2025 Task 4 Challenge
+- [DCASE2025Task4 Development Dataset](https://zenodo.org/records/15117227)
+- [DCASE2025Task4 Evaluation Dataset](https://zenodo.org/records/15553984)
+- [DCASE2025Task4 Ground Truth Dataset](https://zenodo.org/records/16736216)
 
 ## 🛠 Technologies Used
 - Python, NumPy, Pandas, Tensoflow/Keras, Librosa
