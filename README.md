@@ -26,7 +26,7 @@ All folders contain the Python code developed for the experimental part of each 
 | [`complete_pipeline.png`](complete_pipeline.png) | Project complete pipeline. |
 
 ## Complete Pipeline
-Here is an example from a multichannel mixture of the evaluation dataset which represents the complete pipeline of this Thesis, starting by decomposing the source signals from the mixture, then classifying the source signals and, lastly, estimating their direction-of-arrival coordinates relatively with the microphone array.
+Here is an example from a multichannel mixture of the evaluation dataset which represents the complete pipeline of this Thesis, starting by decomposing the separated source signals from the mixture, then classifying the source signals and, lastly, estimating their direction-of-arrival coordinates relatively with the microphone array.
 ![Complete Pipeline](./complete_pipeline.png)
 
 ## Disclaimer
