@@ -45,6 +45,9 @@ https://www.e-ce.uth.gr/wp-content/uploads/formidable/59/Moirotsos_georgios.pdf
 
 ## Author
 **Georgios Moirotsos**
+
 University of Thessaly, Department of Electrical and Computer Engineering (ECE)
+
 Supervisor: Prof. Gerasimos Potamianos
+
 September 2026
