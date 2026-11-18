@@ -25,6 +25,10 @@ All folders contain the Python code developed for the experimental part of each 
 | [`Thesis_presentation.pptx`](Thesis_presentation.pptx) | Project final presentation. |
 | [`complete_pipeline.png`](complete_pipeline.png) | Project complete pipeline. |
 
+## Complete Pipeline
+Here is an example from a multichannel mixture of the evaluation dataset which represents the complete pipeline of this Thesis, starting by decomposing the source signals from the mixture, then classifying the source signals and, lastly, estimating their direction-of-arrival coordinates relatively with the microphone array.
+![Complete Pipeline](./complete_pipeline.png)
+
 ## Disclaimer
 All of the work was done locally on my machine, so every path written should be checked before it can be reused. For a large amount of mixtures, the experiments refered to the IVA algorithm and the extraction of the separated signals have taken place by using the EuroHPC resources, making the experiements much faster than running them locally. My code and workflow can be further optimized for better performance, but the purpose of this project was to develop a three-stage pipeline to perform separation, classification, and localization in once. The "Future Work" section in the "Conclusions" chapter suggests useful tips that hopefully will be developed and imporve the performance of the present system on the future. More attention was given to the final separation experimental results and the conditions under which the separation performance was either better or worse.
 
